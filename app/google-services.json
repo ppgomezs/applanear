@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "626080526212",
+    "project_id": "ejemplochat-580ed",
+    "storage_bucket": "ejemplochat-580ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626080526212:android:3a32cce74a6cefe0def7d1",
+        "android_client_info": {
+          "package_name": "com.example.ejemplochat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAABrnubnvspDQEBc8CJR0LMaYAfg22gmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
