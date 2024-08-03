@@ -30,7 +30,7 @@ import com.google.firebase.auth.FirebaseUser;
 import java.util.ArrayList;
 import java.util.List;
 /**
- * Esta clase representa la actividad de chat de la aplicación.
+ * En esta clase se desarrolla la actividad de chat de la aplicación, que corresponde al Compartir opiniones.
  */
 public class Chat extends AppCompatActivity implements UserListContract, ChatContract {
 

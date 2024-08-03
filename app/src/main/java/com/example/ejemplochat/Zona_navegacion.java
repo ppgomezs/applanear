@@ -1,5 +1,9 @@
 package com.example.ejemplochat;
 
+/**
+ * En esta clase se desarrolla la actividad de Zonsa de navegación de la aplicación.
+ */
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -20,7 +24,7 @@ import com.example.ejemplochat.view.LoginContract;
 
 public class Zona_navegacion extends AppCompatActivity {
 
-    // Componentes de la interfaz de zona de navegacion
+    // Componentes de la interfaz de Zona de navegacion
     private Button btnProyectos;
     private Button btnConsejos;
     private Button btnCompartir;
@@ -31,7 +35,7 @@ public class Zona_navegacion extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_zona_navegacion);
 
-        // Inicialización de componentes de la interfaz de usuario
+        // Inicialización de componentes de la interfaz de Zona de navegación
         btnProyectos = findViewById(R.id.proyectosButton);
         btnConsejos = findViewById(R.id.consejosButton);
         btnCompartir = findViewById(R.id.compartirButton);
@@ -63,7 +67,7 @@ public class Zona_navegacion extends AppCompatActivity {
             }
         });
 
-        // Configuración del listener del image botón de Usuario
+        // Configuración del listener del ImageButton de Usuario que regresa al Login
         btnUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

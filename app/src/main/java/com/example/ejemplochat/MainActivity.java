@@ -15,10 +15,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Cargar la animación desde un archivo XML
+        // Con esto se carga la animación desde un archivo XML
         Animation animacion = AnimationUtils.loadAnimation(this, R.anim.animacion_personalizada);
 
-        // Asignar un Listener a la animación
+        // Aquí se asigna un Listener a la animación
         animacion.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onAnimationEnd(Animation animation) {
-                // La animación ha terminado, iniciar la actividad deseada
+                // La animación ha terminado, se inicia la actividad de Login
                 Intent intent = new Intent(MainActivity.this, Login.class);
                 startActivity(intent);
                 finish();
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Iniciar la animación en una vista específica
-        View vistaAnimada = findViewById(R.id.vista_animada); // Reemplaza R.id.vista_animada con el ID de tu vista
+        View vistaAnimada = findViewById(R.id.vista_animada);
         vistaAnimada.startAnimation(animacion);
     }
 }

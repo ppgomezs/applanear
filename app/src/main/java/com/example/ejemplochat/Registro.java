@@ -29,11 +29,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Esta clase representa la actividad de registro de la aplicación.
+ * En esta clase se desarrolla la actividad de registro de la aplicación.
  */
 public class Registro extends AppCompatActivity implements RegistroContract.View {
 
-    // Componentes de la interfaz de usuario
+    // Componentes de la interfaz de registro del Usuario
     private EditText editTextName;
     private EditText editTextEmail;
     private EditText editTextPassword;
@@ -48,7 +48,7 @@ public class Registro extends AppCompatActivity implements RegistroContract.View
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro);
 
-        // Inicialización de componentes de la interfaz de usuario
+        // Inicialización de componentes de la interfaz de registro de usuario
         editTextName = findViewById(R.id.usernameEditText);
         editTextEmail = findViewById(R.id.emailEditText);
         editTextPassword = findViewById(R.id.passwordEditText);

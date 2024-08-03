@@ -1,5 +1,8 @@
 package com.example.ejemplochat;
 
+/**
+ * En esta clase se desarrolla la actividad de Consejos de la aplicación.
+ */
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;

@@ -14,7 +14,7 @@ import com.example.ejemplochat.model.LoginModel;
 import com.example.ejemplochat.view.LoginContract;
 
 /**
- * Esta clase representa la actividad de inicio de sesión de la aplicación.
+ * En esta clase se desarrolla la actividad de inicio de sesión de la aplicación.
  */
 public class Login extends AppCompatActivity implements LoginContract.View {
 
@@ -60,13 +60,13 @@ public class Login extends AppCompatActivity implements LoginContract.View {
 
     @Override
     public void showToast(String message) {
-        // Mostrar un mensaje de tostada
+        // Mostrar un mensaje de tost
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void navigateToHome() {
-        // Navegar a la actividad principal después de iniciar sesión
+        // Navegar a la zona de navegacion después de iniciar sesión
         Intent intent = new Intent(this, Zona_navegacion.class);
         startActivity(intent);
         finish();

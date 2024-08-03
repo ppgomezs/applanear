@@ -1,5 +1,8 @@
 package com.example.ejemplochat;
 
+/**
+ * En esta clase se desarrolla la actividad de registro de la aplicación.
+ */
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -27,7 +30,7 @@ public class Proyectos extends AppCompatActivity {
         btnUser = findViewById(R.id.btn_user);
         btnHome = findViewById(R.id.btn_home);
 
-        // Configuración del listener del image botón de Usuario
+        // Configuración del listener del ImageButton de Usuario
         btnUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,7 +38,7 @@ public class Proyectos extends AppCompatActivity {
             }
         });
 
-        // Configuración del listener del image botón de Home
+        // Configuración del listener del ImageButton de Home
         btnHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
